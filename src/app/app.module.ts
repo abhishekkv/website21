@@ -16,6 +16,12 @@ import { TeamComponent } from "./team/team.component";
 import { FooterComponent } from "./footer/footer.component";
 import { HeaderComponent } from "./header/header.component";
 import { ConfigService } from "./config.service";
+import { businessComponent } from "./business/business.component";
+import { hospitalityComponent } from "./hospitality/hospitality.component";
+import { educationComponent } from "./education/education.component";
+import { telecomComponent } from "./telecom/telecom.component";
+import { softdevComponent } from "./softdev/softdev.component";
+import { webdevComponent } from "./webdev/webdev.component";
 
 @NgModule({
   declarations: [
@@ -32,6 +38,12 @@ import { ConfigService } from "./config.service";
     TeamComponent,
     FooterComponent,
     HeaderComponent,
+    hospitalityComponent,
+    telecomComponent,
+    educationComponent,
+    softdevComponent,
+    webdevComponent,
+    businessComponent
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [ConfigService],
